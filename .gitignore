@@ -49,9 +49,11 @@ Thumbs.db
 
 # Large binary files (optional - you may want to track some of these)
 *.ply
-*.mp4
 *.avi
 *.mov
+
+# Allow MP4 files in renders directory
+!renders/*.mp4
 
 # COLMAP database files
 *.db
